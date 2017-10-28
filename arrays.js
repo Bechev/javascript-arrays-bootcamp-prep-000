@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, element){
   return myArray
 }
 
-function destructivelyAddElementToBeginningOfArray(exampleArray, element){
-  exampleArray=[element,...exampleArray]
-  return exampleArray
+function destructivelyAddElementToBeginningOfArray(array, element){
+  array[1]=element
+  return array
 }
