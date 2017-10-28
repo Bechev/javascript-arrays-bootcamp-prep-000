@@ -4,3 +4,9 @@ function addElementToBeginningOfArray(array, element){
   var myArray=[element,...array]
   return myArray
 }
+
+function destructivelyAddElementToBeginningOfArray(array, element){
+  var myArray=array
+  myArray[1] = element
+  return myArray
+}
